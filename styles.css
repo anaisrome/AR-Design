@@ -8,11 +8,6 @@ body {
     margin-top: 0px;
 }
 
-header img {
-    width: 100%;
-    height: auto;
-}
-
 .index-nav {
     margin: 50 50 50 0;
 }
@@ -30,3 +25,10 @@ footer {
     background-color: grey;
     padding: 10px 20px;
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
