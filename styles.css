@@ -1,5 +1,4 @@
-/* ---------------------- BASE ---------------------- */
-
+/* STYLE GENERAL */
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #dbd7cb;
@@ -25,8 +24,8 @@ main {
     }
   
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #dbd7cb;
+    color: #333 ;
     text-align: center;
     padding: 1.5rem 1rem;
     font-size: 0.9rem;
@@ -39,8 +38,7 @@ img {
     display: block;
     }
 
-/* ---------------------- HERO (page d'accueil) ---------------------- */
-
+/* INDEX */
 .hero {
     background-image: url('img/photodecouvertureardesign.jpg');
     background-size: cover;
@@ -57,7 +55,7 @@ img {
     content: "";
     position: absolute;
     inset: 0;
-    background-color: rgba(0, 0, 0, 0.4); /* filtre assombrissant */
+    background-color: rgba(32, 32, 32, 0.4); /* filtre assombrissant */
     z-index: 1;
     }
   
@@ -65,6 +63,8 @@ img {
     position: relative;
     z-index: 2;
     text-align: left;
+    max-width: 1000px;
+    padding: 0 2rem;
     margin-left: 5rem;
     }
   
@@ -81,9 +81,50 @@ img {
     letter-spacing: 1px;
     text-align: left;
     }
-  
-/* ---------------------- NAVIGATION ACCUEIL ---------------------- */
 
+/* Ajustement texte*/
+.index-texte {
+    text-align: justify;
+  }
+
+/* INDEX | BOUTON-LIEN DECOUVREZ NOS REALISATIONS ! */
+/* Conteneur pour centrer le bouton-lien horizontalement */
+.lien-bouton-container {
+    text-align: center;
+    margin-top: 2rem;
+    }
+
+/* Style du bouton-lien */
+.lien-bouton {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #333;
+    background-color:#dbd7cb;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+  }
+
+/* Effet au survol du bouton-lien */
+.lien-bouton:hover {
+    background-color: #555;
+  }
+
+/* INDEX | VIDEO */
+.video-accueil {
+    display: block;
+    margin: 2rem auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+  
+/* INDEX | NAVIGATION */
 .hero-nav {
     position: absolute;
     top: 1rem;
@@ -105,8 +146,7 @@ img {
     color: #dbd7cb;
     }
 
-/* ---------------------- NAVIGATION AUTRES PAGES ---------------------- */
-
+/* AUTRES PAGES | NAVIGATION */
 .main-nav {
     display: flex;
     gap: 1.5rem;
@@ -125,16 +165,17 @@ img {
     color: white;
     }      
 
-/* ---------------------- VIDEO ACCUEIL ---------------------- */
+/* SERVICES */
+/* Ajustement texte*/
+.service-texte {
+    text-align: justify;
+  }
 
-.video-accueil {
-    display: block;
-    margin: 2rem auto;
-    max-width: 100%;
-    height: auto;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    }
+/* PROJET 1 | PROJET GRAND RY - LE BUREAU */
+/* Ajustement texte */
+.projet1-texte {
+    text-align: justify;
+  }
   
   
   
